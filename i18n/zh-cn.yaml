@@ -4,6 +4,18 @@ toggleMenu:
 darkMode:
     other: 暗色模式
 
+
+list:
+    page:
+        other: "{{ .Count }} 页"
+
+    section:
+        other: Section
+
+    subsection:
+        one: Subsection
+        other: Subsections
+
 article:
     back:
         other: 返回
