@@ -114,6 +114,12 @@ params:
             issueTerm: pathname
             label:
 
+        beaudar:
+            repo:
+            issueTerm: pathname
+            label:
+            theme:        
+
         remark42:
             host:
             site:
@@ -127,7 +133,7 @@ params:
             clientSecret:
             autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
+        # Waline client configuration see: https://waline.js.org/en/reference/client/props.html
         waline:
             serverURL:
             lang:
@@ -138,9 +144,9 @@ params:
             requiredMeta:
                 - nick
                 - mail
-            placeholder:
             locale:
                 admin: Admin
+                placeholder:
 
         twikoo:
             envId:
