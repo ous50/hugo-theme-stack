@@ -91,7 +91,8 @@ params:
             src: img/avatar.png
 
     article:
-        math: true
+        headingAnchor: false
+        math: false
         toc: true
         readingTime: true
         license:
